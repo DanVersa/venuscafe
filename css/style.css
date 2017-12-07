@@ -613,14 +613,14 @@ html {
   
     .topPage {
 
-        height: 750px;
+        height: 7500px;
 
     }
 
     .topPage .left-col {
 
         flex-direction: column;
-        height: 375px;
+        height: 350px;
         float: none;
         width: 100%;
         align-items: center;
@@ -630,7 +630,7 @@ html {
     .topPage .right-col {
 
         flex-direction: row;
-        height: 375px;
+        height: 350px;
         float: none;
         width: 100%;
 
