@@ -37,13 +37,49 @@ $(document).ready(function(){
 
     $(".callvenus").mouseenter(function(){
 
-        $(".callvenus").html("716-831-8100");
+        $(".callvenus").html("716-854-1489");
 
     });
     
     $(".callvenus").mouseleave(function(){
         
         $(".callvenus").html("Call");
+        
+    });
+
+    $("#food1").mouseenter(function(){
+
+        $("#food1 h3").html("Chicken Shawarma placed over rice or fries and served with greek salad or extra chicken");
+
+    });
+    
+    $("#food1").mouseleave(function(){
+        
+        $("#food1 h3").html("Chicken Shawarma");
+        
+    });
+
+    $("#food2").mouseenter(function(){
+
+        $("#food2 h3").html("Crisp falafel balls served with hummus");
+
+    });
+    
+    $("#food2").mouseleave(function(){
+        
+        $("#food2 h3").html("Falafel Plate");
+        
+    });
+
+    $("#food3").mouseenter(function(){
+
+        $("#food3 h3").html("Souvlaki wrap served with lettuce, tomatoes, onions, feta cheese, and homemade garlic sauce");
+
+    });
+    
+    $("#food3").mouseleave(function(){
+        
+        $("#food3 h3").html("Souvlaki Wrap");
         
     });
 
