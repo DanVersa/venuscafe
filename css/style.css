@@ -183,7 +183,7 @@ html {
 
     height: 800px;
     width: 100%;
-    background-image: url("../img/bk1.jpg");
+    background-image: url("../img/dispfood1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,6 +261,16 @@ html {
 
 /* Food SlideShow */
 
+.featuredh1 {
+
+    text-align: center;
+    color: #C8515F;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+
+}
+
 .fSlideShow {
 
     display: flex;
@@ -329,14 +339,8 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
     transition: all 0.3s ease;
-
-}
-
-.fSlideShow a {
-
-    text-decoration: none;
-    color: #fff;
 
 }
 
@@ -345,7 +349,11 @@ html {
     color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 700;
+    font-size: 24px;
     padding: 10px;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 2px;
 
 }
 
@@ -449,6 +457,10 @@ html {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
@@ -485,6 +497,7 @@ html {
     background-color: rgba(0,0,0,.5);
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
 
 }
 
@@ -542,10 +555,36 @@ html {
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 300;
     font-size: 18px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     padding-left: 20%;
     padding-right: 20%;
     text-align: center;
+
+}
+
+.question a {
+
+    text-decoration: none;
+    background-color: #C8515F;
+    color: #fff;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 500;
+    height: 75px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    margin-bottom: 25px;
+
+}
+
+.question a:hover {
+
+    transition: all 0.3s ease;
+    background-color: rgba(200,81,95,.75);
 
 }
 
@@ -616,14 +655,15 @@ html {
   
     .topPage {
 
-        height: 750px;
+        height: 700px;
+        background-position: left;
 
     }
 
     .topPage .left-col {
 
         flex-direction: column;
-        height: 375px;
+        height: 350px;
         float: none;
         width: 100%;
         align-items: center;
@@ -633,7 +673,7 @@ html {
     .topPage .right-col {
 
         flex-direction: row;
-        height: 375px;
+        height: 350px;
         float: none;
         width: 100%;
 
@@ -644,12 +684,14 @@ html {
         font-size: 50px;
         padding-left: 0px;
         text-align: center;
+        padding-top: 75px; 
 
     }
 
     .topPage p {
 
         padding-left: 0px;
+        text-align: center;
 
     }
 
@@ -661,10 +703,22 @@ html {
 
     }
 
+    .featuredh1 {
+
+        font-size: 55px;
+
+    }
+
     .foodblock {
 
         height: 175px;
         width: 275px;
+
+    }
+
+    .foodblock h3 {
+
+        font-size: 20px;
 
     }
 
