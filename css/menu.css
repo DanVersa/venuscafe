@@ -1,0 +1,112 @@
+/* Universal */
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-size: 20px;
+
+}
+
+.redcolor {
+
+    color: #C8515F;
+
+}
+
+/* Back btn */
+
+.back {
+
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C8515F;
+    top: 0;
+    left: 0;
+
+}
+
+.back a {
+
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 300;
+    transition: all 0.3s ease;
+
+}
+
+.back a:hover {
+
+    transition: all 0.3s ease;
+    color: rgba(255,255,255,.75);
+
+}
+
+/* Menu PDF Link */
+
+.pdf a {
+
+    text-decoration: none;
+    background-color: #C8515F;
+    color: #fff;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 500;
+    height: 75px;
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    margin-top: 150px;
+
+}
+
+.pdf a:hover {
+
+    transition: all 0.3s ease;
+    background-color: rgba(200,81,95,.75);
+
+}
+
+/* Menu */
+
+.menu {
+
+    text-align: center;
+
+}
+
+.menublock {
+
+    
+
+}
+
+.menublock h1 {
+ 
+    padding-top: 50px;
+    color: #212121;
+    font-family: "Montserrat", Avenir, sans-serif;
+
+
+}
+
+.menublock p {
+
+    color: #212121;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 300;
+
+}
