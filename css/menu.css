@@ -54,6 +54,18 @@ html {
 
 /* Menu PDF Link */
 
+.pdf {
+
+    height: 200px;
+    width: 100%;
+    background-image: url("../img/bk1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+}
+
 .pdf a {
 
     text-decoration: none;
@@ -69,7 +81,6 @@ html {
     margin: 25px;
     border-radius: 50px;
     transition: all 0.3s ease;
-    margin-top: 150px;
 
 }
 
