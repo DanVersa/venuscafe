@@ -15,7 +15,7 @@ html {
 
 .redcolor {
 
-    color: #C8515F;
+    color: #212121;
 
 }
 
@@ -29,7 +29,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #C8515F;
+    background-color: #fff;
     top: 0;
     left: 0;
 
@@ -37,7 +37,7 @@ html {
 
 .back a {
 
-    color: #fff;
+    color: #C8515F;
     text-decoration: none;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 300;
@@ -52,25 +52,21 @@ html {
 
 }
 
-/* Menu PDF Link */
+/* Menu */
 
-.pdf {
+.menu {
 
-    height: 200px;
-    width: 100%;
-    background-image: url("../img/bk1.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background-color: #C8515F;
     padding-top: 50px;
 
 }
 
-.pdf a {
+.menu a {
 
     text-decoration: none;
-    background-color: #C8515F;
-    color: #fff;
+    background-color: #fff;
+    color: #C8515F;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 500;
     height: 75px;
@@ -84,31 +80,17 @@ html {
 
 }
 
-.pdf a:hover {
+.menu a:hover {
 
     transition: all 0.3s ease;
-    background-color: rgba(200,81,95,.75);
-
-}
-
-/* Menu */
-
-.menu {
-
-    text-align: center;
-
-}
-
-.menublock {
-
-    
+    background-color: rgba(255,255,255,.75);
 
 }
 
 .menublock h1 {
  
     padding-top: 50px;
-    color: #212121;
+    color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
 
 
@@ -116,8 +98,43 @@ html {
 
 .menublock p {
 
-    color: #212121;
+    color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 300;
+
+}
+
+#lastblock {
+
+    padding-bottom: 50px;
+
+}
+
+/* bottom */
+
+.bottom {
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom a {
+
+    color: #C8515F;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: "Montserrat", Avenir, sans-serif;
+    font-weight: 500;
+
+}
+
+.bottom a:hover {
+
+    transition: all 0.3s ease;
+    color: rgba(200,81,95,.75);
 
 }
