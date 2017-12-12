@@ -594,7 +594,7 @@ html {
 
     height: 200px;
     width: 100%;
-    background-color: rgba(200,81,95,1);
+    background-color: #212121;
     display: flex;
     flex-direction: column;
     align-content: space-around;
@@ -643,7 +643,7 @@ html {
 
 .bottom img:hover {
 
-    background-color: #212121;
+    background-color: #C8515F;
     border-radius: 50%;
     transition: all 0.3s ease;
 
