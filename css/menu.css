@@ -57,7 +57,10 @@ html {
 .menu {
 
     text-align: center;
-    background-color: #212121;
+    background-image: url("../img/menuback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 50px;
 
 }
@@ -90,7 +93,7 @@ html {
 .menublock h1 {
  
     padding-top: 50px;
-    color: #fff;
+    color: #212121;
     font-family: "Montserrat", Avenir, sans-serif;
 
 
@@ -98,7 +101,7 @@ html {
 
 .menublock p {
 
-    color: #fff;
+    color: #212121;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 300;
 
@@ -107,6 +110,7 @@ html {
 #lastblock {
 
     padding-bottom: 50px;
+    margin-bottom: 0px;
 
 }
 
