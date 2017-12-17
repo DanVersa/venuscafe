@@ -114,7 +114,8 @@ html {
 /* Gallery */
 
 .gallery {
-
+    
+    background-color: #F1B456;
     text-align: center;
     padding-top: 50px;
     margin: 0 auto;
@@ -405,6 +406,7 @@ html {
 
 .events {
 
+    background-color: #F1B456;
     text-align: center;
     padding-top: 50px;
     margin: 0 auto;
@@ -423,6 +425,7 @@ html {
 
 .catering {
 
+    background-color: #F1B456;
     text-align: center;
     padding-top: 50px;
     margin: 0 auto;
