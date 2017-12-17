@@ -121,7 +121,7 @@ html {
 
 .navbar h1 {
 
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -139,11 +139,11 @@ html {
 
 .navbar a {
 
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 50px;
     color: #212121;
     text-decoration: none;
