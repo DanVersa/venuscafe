@@ -15,7 +15,7 @@ html {
 
 .redcolor {
 
-    color: #C8515F;
+    color: #F1B456;
 
 }
 
@@ -39,7 +39,7 @@ html {
 
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    color: #C8515F;
+    color: #F1B456;
     position: absolute;
     bottom: 30;
 
@@ -49,7 +49,7 @@ html {
 
     height: 25px;
     width: 25px;
-    background-color: #C8515F;
+    background-color: #F1B456;
     border-radius: 50%;
 
 }
@@ -236,7 +236,7 @@ html {
 .topPage .right-col a {
 
     text-decoration: none;
-    background-color: #C8515F;
+    background-color: #F1B456;
     color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 500;
@@ -254,7 +254,7 @@ html {
 .topPage .right-col a:hover {
 
     transition: all 0.3s ease;
-    color: #C8515F;
+    color: #F1B456;
     background-color: #fff;
 
 }
@@ -395,7 +395,7 @@ html {
 .directions a {
 
     text-decoration: none;
-    color: rgba(200,81,95,1);
+    color: rgba(241, 180, 86, 1);
     font-family: "Montserrat", Avenir, sans-serif;
     font-size: 25px;
     margin: 25px;
@@ -406,7 +406,7 @@ html {
 .directions a:hover {
 
     transition: all 0.3s ease;
-    color: rgba(200,81,95,.75); 
+    color: rgba(241, 180, 86, .75); 
 
 }
 
@@ -504,7 +504,7 @@ html {
 .grub a {
 
     text-decoration: none;
-    background-color: #C8515F;
+    background-color: #F1B456;
     color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 500;
@@ -522,7 +522,7 @@ html {
 .grub a:hover {
 
     transition: all 0.3s ease;
-    color: #C8515F;
+    color: #F1B456;
     background-color: #fff;
 
 }
@@ -565,7 +565,7 @@ html {
 .question a {
 
     text-decoration: none;
-    background-color: #C8515F;
+    background-color: #F1B456;
     color: #fff;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 500;
@@ -584,7 +584,7 @@ html {
 .question a:hover {
 
     transition: all 0.3s ease;
-    background-color: rgba(200,81,95,.75);
+    background-color: rgba(241, 180, 86, .75);
 
 }
 
