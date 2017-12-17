@@ -177,10 +177,6 @@ html {
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 5px;
     margin: 25px;
-    background-image: url("../img/bk1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     transition: all 0.3s ease;
     
 }
