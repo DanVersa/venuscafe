@@ -432,3 +432,55 @@ html {
     background-repeat: no-repeat;
 
 }
+
+/* Events */
+
+.events {
+
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.events h1 {
+
+    color: #212121;
+    font-family: "Montserrat", Avenir, sans-serif;
+
+}
+
+/* Catering */
+
+.catering {
+
+    text-align: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.catering h1 {
+
+    color: #212121;
+    font-family: "Montserrat", Avenir, sans-serif;
+
+}
+
+.catering a {
+
+    color: #C8515F;
+    text-decoration: none;
+    font-family: "Montserrat", Avenir, sans-serif;
+    transition: all 0.3s ease;
+
+}
+
+.catering a:hover {
+
+    transition: all 0.3s ease;
+    color: rgba(200,81,95,.75);
+
+}
