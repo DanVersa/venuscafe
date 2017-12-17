@@ -89,7 +89,7 @@ body {
 .menu a:hover {
 
     transition: all 0.3s ease;
-    background-color: rgba(241, 180, 86, 0.75);
+    background-color: rgba(255, 255, 255, .75);
 
 }
 
