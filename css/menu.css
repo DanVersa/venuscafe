@@ -15,7 +15,7 @@ html {
 
 .redcolor {
 
-    color: #C8515F;
+    color: #ffffff;
 
 }
 
@@ -37,7 +37,7 @@ html {
 
 .back a {
 
-    color: #C8515F;
+    color: #F1B456;
     text-decoration: none;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 300;
@@ -48,7 +48,7 @@ html {
 .back a:hover {
 
     transition: all 0.3s ease;
-    color: rgba(200,81,95,.75);
+    color: rgba(241, 180, 86, 0.75);
 
 }
 
@@ -57,10 +57,7 @@ html {
 .menu {
 
     text-align: center;
-    background-image: url("../img/menuback.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #F1B456;
     padding-top: 50px;
 
 }
@@ -69,7 +66,7 @@ html {
 
     text-decoration: none;
     background-color: #fff;
-    color: #C8515F;
+    color: #F1B456;
     font-family: "Montserrat", Avenir, sans-serif;
     font-weight: 500;
     height: 75px;
@@ -86,7 +83,7 @@ html {
 .menu a:hover {
 
     transition: all 0.3s ease;
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(241, 180, 86, 0.75);
 
 }
 
@@ -111,35 +108,6 @@ html {
 
     padding-bottom: 50px;
     margin-bottom: 0px;
-
-}
-
-/* bottom */
-
-.bottom {
-
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.bottom a {
-
-    color: #C8515F;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    font-family: "Montserrat", Avenir, sans-serif;
-    font-weight: 500;
-
-}
-
-.bottom a:hover {
-
-    transition: all 0.3s ease;
-    color: rgba(200,81,95,.75);
 
 }
 
@@ -471,7 +439,7 @@ html {
 
 .catering a {
 
-    color: #C8515F;
+    color: #fff;
     text-decoration: none;
     font-family: "Montserrat", Avenir, sans-serif;
     transition: all 0.3s ease;
@@ -481,6 +449,6 @@ html {
 .catering a:hover {
 
     transition: all 0.3s ease;
-    color: rgba(200,81,95,.75);
+    color: rgba(255,255,255,.75);
 
 }
