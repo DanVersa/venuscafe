@@ -408,6 +408,60 @@ body {
 
 }
 
+#buff1 {
+
+    background-image: url("../img/buff1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#buff2 {
+
+    background-image: url("../img/buff2.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#cat1 {
+
+    background-image: url("../img/cat1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#cat2 {
+
+    background-image: url("../img/cat2.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#cat3 {
+
+    background-image: url("../img/cat3.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#cat4 {
+
+    background-image: url("../img/cat4.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /* Events */
 
 .events {
