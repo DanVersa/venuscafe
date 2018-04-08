@@ -2,7 +2,7 @@
 
     <head>
 
-        <title>Venus Greek and Mediterranean</title>
+        <title>Venus Greek and Mediterranean - Catering</title>
         <link rel="stylesheet" type="text/css" href="css/menu.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi">
@@ -13,11 +13,35 @@
 
     <body>
 
-        <div class="back">
+      <!-- Navigation Bar -->
 
-            <a href="index.html">Venus</a>
+      <div id="navbarid" class="navbar">
 
-        </div>
+          <div class="closebtn" onclick="closeNav()">
+
+                  <div id="btn-bar-close1" class="btn-bar-close"></div>
+                  <div id="btn-bar-close2" class="btn-bar-close"></div>
+
+          </div>
+
+          <h1><span class="redcolor">MENU</span></h1>
+
+          <a href="index.html">Home</a>
+          <a href="https://www.skipthedishes.com/venus-greek-and-mediterranean-restaurant" target="blank">Delivery</a>
+          <a href="catering.html">Catering</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="tel:7168318100">Call</a>
+
+
+      </div>
+
+      <div class="navbarbtn" onclick="openNav()">
+
+          <div id="btn-bar-1" class="btn-bar"></div>
+          <div id="btn-bar-2" class="btn-bar"></div>
+          <div id="btn-bar-3" class="btn-bar"></div>
+
+      </div>
 
         <div class="catering">
 
@@ -30,14 +54,16 @@
 
                 <div class="foodblock" id="food27"></div>
                 <div class="foodblock" id="food28"></div>
-                <div class="foodblock" id="cat1"></div>
-                <div class="foodblock" id="cat2"></div>
-                <div class="foodblock" id="cat3"></div>
-                <div class="foodblock" id="cat4"></div>
 
             </div>
 
         </div>
+
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
 
     </body>
 
