@@ -15,46 +15,138 @@ html {
 
 .redcolor {
 
-    color: #ffffff;
+    color: #F1B456;
 
 }
 
-body {
+.or_underline {
 
-    background-color: #F1B456;
+  border-bottom: 3px solid #F1B456;
+  padding-bottom: 2px;
 
 }
 
-/* Back btn */
+/* NavBar BTN OPEN */
 
-.back {
+.navbarbtn {
 
-    height: 50px;
-    width: 100%;
     position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+    top: 25;
+    left: 20;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.btn-bar {
+
+    height: 2px;
+    margin: 6px;
+    width: 32px;
+    border-radius: 1px;
+    background-color: #212121;
+    transition: all 0.3s ease;
+
+}
+
+/* NavBar BTN CLOSE */
+
+.btn-bar-close {
+
+    height: 2px;
+    margin: 6px;
+    width: 32px;
+    border-radius: 1px;
+    background-color: #212121;
+    transition: all 0.3s ease;
+
+}
+
+.closebtn {
+
+    position: absolute;
+    top: 25;
+    left: 20;
+    cursor: pointer;
+
+}
+
+/* NavBar */
+
+.navbar {
+
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1005;
     top: 0;
     left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.back a {
+.navbar h1 {
 
-    color: #F1B456;
-    text-decoration: none;
-    font-family: "Montserrat", Avenir, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 50px;
+    color: #212121;
+    text-align: center;
+
+}
+
+.navbar ul {
+
+    list-style-type: none;
+
+}
+
+.navbar a {
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
     font-weight: 300;
-    transition: all 0.3s ease;
+    padding-top: 30px;
+    color: #212121;
+    text-decoration: none;
+    position: relative;
+    display: block;
 
 }
 
-.back a:hover {
+.navbar a:before {
 
-    transition: all 0.3s ease;
-    color: rgba(241, 180, 86, 0.75);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.navbar a:hover:before {
+
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 
 }
 
@@ -94,7 +186,7 @@ body {
 }
 
 .menublock h1 {
- 
+
     padding-top: 50px;
     color: #212121;
     font-family: "Montserrat", Avenir, sans-serif;
@@ -120,12 +212,11 @@ body {
 /* Gallery */
 
 .gallery {
-    
-    background-color: #F1B456;
+
     text-align: center;
     padding-top: 50px;
     margin: 0 auto;
-    width: 70%;
+    width: 65%;
 
 }
 
@@ -147,13 +238,11 @@ body {
 
 .foodblock {
 
-    height: 200px;
-    width: 350px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border-radius: 5px;
-    margin: 25px;
+    height: 250px;
+    width: 200px;
+    margin: 20px;
     transition: all 0.3s ease;
-    
+
 }
 
 #food1 {
@@ -462,30 +551,11 @@ body {
 
 }
 
-/* Events */
-
-.events {
-
-    background-color: #F1B456;
-    text-align: center;
-    padding-top: 50px;
-    margin: 0 auto;
-    width: 70%;
-
-}
-
-.events h1 {
-
-    color: #212121;
-    font-family: "Montserrat", Avenir, sans-serif;
-
-}
-
 /* Catering */
 
 .catering {
 
-    background-color: #F1B456;
+    background-color: #fff;
     text-align: center;
     padding-top: 50px;
     margin: 0 auto;
@@ -502,7 +572,7 @@ body {
 
 .catering a {
 
-    color: #fff;
+    color: #F1B456;
     text-decoration: none;
     font-family: "Montserrat", Avenir, sans-serif;
     transition: all 0.3s ease;
@@ -512,6 +582,5 @@ body {
 .catering a:hover {
 
     transition: all 0.3s ease;
-    color: rgba(255,255,255,.75);
 
 }
