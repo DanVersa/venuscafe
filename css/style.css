@@ -633,7 +633,7 @@ html {
 
     .topPage {
 
-        background-position: left;
+        background-attachment: inherit;
 
     }
 
